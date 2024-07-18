@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="RestAssuredTesting.RestAssuredTesting.UdemyJiraAPICookieBasedAuth">
+      <class name="maven.selenium.basic.programming.toolsqa.com.automation.toolsqa.tutorial.AppTest">
         <methods>
-          <include name="testJiraAPI"/>
+          <include name="testBrowser"/>
+          <include name="handling_Webtables"/>
         </methods>
-      </class> <!-- RestAssuredTesting.RestAssuredTesting.UdemyJiraAPICookieBasedAuth -->
+      </class> <!-- maven.selenium.basic.programming.toolsqa.com.automation.toolsqa.tutorial.AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

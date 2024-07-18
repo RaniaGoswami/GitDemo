@@ -1,0 +1,25 @@
+<suite name = "test_suite" verbose = "1">
+<test name = "test1">
+<!-- <groups>
+<run>
+<include name = "Car"></include>
+<exclude name = "scooter"></exclude>
+</run>
+</groups>-->
+<classes>
+<!--  <class name = "maven.selenium.basic.programming.toolsqa.com.automation.toolsqa.tutorial.TestNG_Test"></class>
+<methods>
+<include name = "testMethod1"></include>
+</methods>-->
+<parameter name = "username" value = "hello"></parameter>
+<parameter name = "password" value = "1234"></parameter>
+<class name = "maven.selenium.basic.programming.toolsqa.com.automation.toolsqa.tutorial.TestNG_Test2"></class>
+</classes>
+</test>
+
+<!-- <test name = "test2">
+<classes>
+<class name = "maven.selenium.basic.programming.toolsqa.com.automation.toolsqa.tutorial.TestNG_Test2"></class>
+</classes>
+</test>-->
+</suite>
