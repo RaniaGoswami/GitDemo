@@ -31,6 +31,8 @@ public class AppTest{
 		BaseClass1.driver.manage().window().maximize();
 		BaseClass1.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
+		System.out.println("Hello testing for git");
+		
 		/*BaseClass.driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		BaseClass.driver.manage().deleteAllCookies();	
 		/*System.out.println(BaseClass.driver.getTitle());
