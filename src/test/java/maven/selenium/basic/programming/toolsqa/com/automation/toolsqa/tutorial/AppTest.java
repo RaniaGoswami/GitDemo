@@ -34,6 +34,7 @@ public class AppTest{
 		System.out.println("Hello testing for git");
 		System.out.println("Hello testing for git");
 		System.out.println("Hello testing for git");
+		System.out.println("Final commit");
 		
 		/*BaseClass.driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		BaseClass.driver.manage().deleteAllCookies();	
