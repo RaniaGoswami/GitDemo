@@ -30,7 +30,7 @@ public class ReadExcel {
 			for(int c = 0;c<last_Col_Count;c++) {
 				String data = sheet1.getRow(r).getCell(c).getStringCellValue();
 				//BaseClass.driver.findElement(By.xpath(BaseClass.propertyFile.getProperty("Error_message_in_Incorrect_Login"))).sendKeys(data);
-				System.out.println("data is "+ data);
+				System.out.println("data displayed from gitstuff is "+ data);
 			}
 		}
 		
